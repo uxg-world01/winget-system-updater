@@ -69,7 +69,7 @@ def main():
     # --- Winget Cleanup Section ---
     if ask_permission("Do you want to clear the Winget cache/settings?"):
         print("[*] Running Winget cleanup...")
-        subprocess.run(["winget", "settings", "--reset"], shell=True)
+        subprocess.run(["winget", "settings",], shell=True)
 
     print("\n[+] All tasks completed successfully!")
 
